@@ -1,0 +1,599 @@
+2015-01-01 12:35:32 [::1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'copy(E:\xampp\htdocs\yii2admilte\frontend\web\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\44ae1d06\assets\2ed20534\css\bootstrap-theme.css.map): failed to open stream: Invalid argument' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php:279
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'copy(E:\\xampp\\h...', 'E:\\xampp\\htdocs...', 279, Array)
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(279): copy('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#14 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#22 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#23 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#24 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(284): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#25 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(470): yii\helpers\BaseFileHelper::copyDirectory('E:\\xampp\\htdocs...', 'E:\\xampp\\htdocs...', Array)
+#26 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(391): yii\web\AssetManager->publishDirectory('E:\\xampp\\htdocs...', Array)
+#27 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(162): yii\web\AssetManager->publish('E:/xampp/htdocs...', Array)
+#28 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(221): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#29 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(192): yii\web\AssetManager->loadBundle('frontend\\assets...', Array, true)
+#30 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\View.php(284): yii\web\AssetManager->getBundle('frontend\\assets...')
+#31 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(118): yii\web\View->registerAssetBundle('frontend\\assets...')
+#32 E:\xampp\htdocs\yii2admilte\frontend\views\layouts\main.php(9): yii\web\AssetBundle::register(Object(yii\web\View))
+#33 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(325): require('E:\\xampp\\htdocs...')
+#34 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#35 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#36 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#37 E:\xampp\htdocs\yii2admilte\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#38 [internal function]: frontend\controllers\SiteController->actionIndex()
+#39 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#40 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#41 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#42 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#43 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#44 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#45 {main}
+2015-01-01 12:35:32 [::1][-][-][info][application] $_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => 'e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s:32:\"BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc\";'
+    'PHPSESSID' => 'd4uqebgtcokoosn6obhdissqj0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s%3A32%3A%22BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc%22%3B; PHPSESSID=d4uqebgtcokoosn6obhdissqj0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56171'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2admilte/frontend/web/'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420112132.307
+    'REQUEST_TIME' => 1420112132
+]
+2015-01-01 12:38:48 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @/' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(128): yii\BaseYii::getAlias('@/')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\di\Container.php(364): ReflectionClass->newInstanceArgs(Array)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('frontend\\assets...', Array, Array)
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('frontend\\assets...', Array, Array)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(219): yii\BaseYii::createObject(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(192): yii\web\AssetManager->loadBundle('frontend\\assets...', Array, true)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\View.php(284): yii\web\AssetManager->getBundle('frontend\\assets...')
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(118): yii\web\View->registerAssetBundle('frontend\\assets...')
+#10 E:\xampp\htdocs\yii2admilte\frontend\views\layouts\main.php(9): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(325): require('E:\\xampp\\htdocs...')
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#14 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#15 E:\xampp\htdocs\yii2admilte\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+2015-01-01 12:38:48 [::1][-][-][info][application] $_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => 'e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s:32:\"BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc\";'
+    'PHPSESSID' => 'd4uqebgtcokoosn6obhdissqj0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s%3A32%3A%22BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc%22%3B; PHPSESSID=d4uqebgtcokoosn6obhdissqj0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2admilte/frontend/web/'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420112328.502
+    'REQUEST_TIME' => 1420112328
+]
+2015-01-01 12:38:49 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @/' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(128): yii\BaseYii::getAlias('@/')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\di\Container.php(364): ReflectionClass->newInstanceArgs(Array)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('frontend\\assets...', Array, Array)
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('frontend\\assets...', Array, Array)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(219): yii\BaseYii::createObject(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(192): yii\web\AssetManager->loadBundle('frontend\\assets...', Array, true)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\View.php(284): yii\web\AssetManager->getBundle('frontend\\assets...')
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(118): yii\web\View->registerAssetBundle('frontend\\assets...')
+#10 E:\xampp\htdocs\yii2admilte\frontend\views\layouts\main.php(9): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(325): require('E:\\xampp\\htdocs...')
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#14 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#15 E:\xampp\htdocs\yii2admilte\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+2015-01-01 12:38:49 [::1][-][-][info][application] $_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => 'e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s:32:\"BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc\";'
+    'PHPSESSID' => 'd4uqebgtcokoosn6obhdissqj0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s%3A32%3A%22BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc%22%3B; PHPSESSID=d4uqebgtcokoosn6obhdissqj0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56192'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2admilte/frontend/web/'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420112329.42
+    'REQUEST_TIME' => 1420112329
+]
+2015-01-01 12:39:37 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: /yii2admilte/frontend/web' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php:385
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(162): yii\web\AssetManager->publish('/yii2admilte/fr...', Array)
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(221): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(192): yii\web\AssetManager->loadBundle('frontend\\assets...', Array, true)
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\View.php(284): yii\web\AssetManager->getBundle('frontend\\assets...')
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(118): yii\web\View->registerAssetBundle('frontend\\assets...')
+#5 E:\xampp\htdocs\yii2admilte\frontend\views\layouts\main.php(9): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(325): require('E:\\xampp\\htdocs...')
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#10 E:\xampp\htdocs\yii2admilte\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#11 [internal function]: frontend\controllers\SiteController->actionIndex()
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2015-01-01 12:39:37 [::1][-][-][info][application] $_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => 'e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s:32:\"BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc\";'
+    'PHPSESSID' => 'd4uqebgtcokoosn6obhdissqj0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s%3A32%3A%22BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc%22%3B; PHPSESSID=d4uqebgtcokoosn6obhdissqj0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56201'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2admilte/frontend/web/'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420112377.124
+    'REQUEST_TIME' => 1420112377
+]
+2015-01-01 12:40:45 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @theme/' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(128): yii\BaseYii::getAlias('@theme/')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\di\Container.php(364): ReflectionClass->newInstanceArgs(Array)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('frontend\\assets...', Array, Array)
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('frontend\\assets...', Array, Array)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(219): yii\BaseYii::createObject(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetManager.php(192): yii\web\AssetManager->loadBundle('frontend\\assets...', Array, true)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\View.php(284): yii\web\AssetManager->getBundle('frontend\\assets...')
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\AssetBundle.php(118): yii\web\View->registerAssetBundle('frontend\\assets...')
+#10 E:\xampp\htdocs\yii2admilte\frontend\views\layouts\main.php(9): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(325): require('E:\\xampp\\htdocs...')
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#14 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#15 E:\xampp\htdocs\yii2admilte\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+2015-01-01 12:40:45 [::1][-][-][info][application] $_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => 'e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s:32:\"BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc\";'
+    'PHPSESSID' => 'd4uqebgtcokoosn6obhdissqj0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=e940004ce4f5a9cca9d7775cf6f9fcdaa0369d7d7dc5ef3159878a44564209c3s%3A32%3A%22BiUvODvJHkFPs8ej0cRo6mvi_yKux7Qc%22%3B; PHPSESSID=d4uqebgtcokoosn6obhdissqj0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56210'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2admilte/frontend/web/'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420112445.135
+    'REQUEST_TIME' => 1420112445
+]
+2015-01-01 13:00:41 [::1][1][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('logout', Array)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/logout', Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-01-01 13:00:41 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => '0c6423f215729e50c13cdd34f41960b3c06a41d3cd7903d144ea1f0f25c68060s:32:\"vumBvmY7utOksM-xQ3IopP_YzPopTF6y\";'
+    '_identity' => '61f953cffdc10eca8e46c9c884ce807582491c25cc27bce6b6f9e2c6e90d8064s:46:\"[1,\"PqRKATKi9sTGIuCId9D_Oc9TwLBSM7C2\",2592000]\";'
+    'PHPSESSID' => '8t2t091k3r0d3dt9vrjnics072'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/frontend/web/index.php?r=site%2Flogout'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=0c6423f215729e50c13cdd34f41960b3c06a41d3cd7903d144ea1f0f25c68060s%3A32%3A%22vumBvmY7utOksM-xQ3IopP_YzPopTF6y%22%3B; _identity=61f953cffdc10eca8e46c9c884ce807582491c25cc27bce6b6f9e2c6e90d8064s%3A46%3A%22%5B1%2C%22PqRKATKi9sTGIuCId9D_Oc9TwLBSM7C2%22%2C2592000%5D%22%3B; PHPSESSID=8t2t091k3r0d3dt9vrjnics072'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56514'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogout'
+    'REQUEST_URI' => '/yii2admilte/frontend/web/index.php?r=site%2Flogout'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420113641.593
+    'REQUEST_TIME' => 1420113641
+]
+2015-01-01 13:01:36 [::1][1][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('logout', Array)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/logout', Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\xampp\htdocs\yii2admilte\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-01-01 13:01:36 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_COOKIE = [
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '_csrf' => '0c6423f215729e50c13cdd34f41960b3c06a41d3cd7903d144ea1f0f25c68060s:32:\"vumBvmY7utOksM-xQ3IopP_YzPopTF6y\";'
+    'PHPSESSID' => '8t2t091k3r0d3dt9vrjnics072'
+    '_identity' => '61f953cffdc10eca8e46c9c884ce807582491c25cc27bce6b6f9e2c6e90d8064s:46:\"[1,\"PqRKATKi9sTGIuCId9D_Oc9TwLBSM7C2\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/frontend/web/index.php?r=site%2Flogout'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => '87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; _csrf=0c6423f215729e50c13cdd34f41960b3c06a41d3cd7903d144ea1f0f25c68060s%3A32%3A%22vumBvmY7utOksM-xQ3IopP_YzPopTF6y%22%3B; PHPSESSID=8t2t091k3r0d3dt9vrjnics072; _identity=61f953cffdc10eca8e46c9c884ce807582491c25cc27bce6b6f9e2c6e90d8064s%3A46%3A%22%5B1%2C%22PqRKATKi9sTGIuCId9D_Oc9TwLBSM7C2%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/frontend/web/index.php'
+    'REMOTE_PORT' => '56517'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogout'
+    'REQUEST_URI' => '/yii2admilte/frontend/web/index.php?r=site%2Flogout'
+    'SCRIPT_NAME' => '/yii2admilte/frontend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420113696.311
+    'REQUEST_TIME' => 1420113696
+]
