@@ -1,10 +1,11 @@
 <?php
+
 return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=yii2adminlte',
-            'username' => 'rootaaaa',
+            'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
         ],
@@ -16,5 +17,6 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        
     ],
 ];

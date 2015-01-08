@@ -1,4 +1,5 @@
 <?php
+
 use yii\helpers\Html;
 use frontend\assets\AppAsset;
 use yii\helpers\Url;
@@ -15,13 +16,13 @@ AppAsset::register($this);
         <meta charset="<?= Yii::$app->charset ?>"/>
 
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-       <?= Html::csrfMetaTags() ?>
+        <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
     <?php $this->beginBody() ?>
     <body class="skin-blue">
-       
+
         <header class="header">
             <a href="" class="logo">              
                 AdminLTE Yii 2.0.1
@@ -229,7 +230,7 @@ AppAsset::register($this);
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="glyphicon glyphicon-user"></i>
-                                <span><?=  Yii::$app->user->isGuest ?'Guest':Yii::$app->user->identity->username; ?> <i class="caret"></i></span>
+                                <span><?= Yii::$app->user->isGuest ? 'Guest' : Yii::$app->user->identity->username; ?> <i class="caret"></i></span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
@@ -258,10 +259,10 @@ AppAsset::register($this);
                                         <a href="#" class="btn btn-default btn-flat">Profile</a>
                                     </div>
                                     <div class="pull-right">
-                                        <?php if(Yii::$app->user->isGuest): ?>
-                                         <a href="<?=Url::to(['site/login']);?>" data-method="post" class="btn btn-default btn-flat">Sign In</a>
+                                        <?php if (Yii::$app->user->isGuest): ?>
+                                            <a href="<?= Url::to(['site/login']); ?>" data-method="post" class="btn btn-default btn-flat">Sign In</a>
                                         <?php else: ?>
-                                        <a href="<?=Url::to(['site/logout']);?>" data-method="post" class="btn btn-default btn-flat">Sign out</a>
+                                            <a href="<?= Url::to(['site/logout']); ?>" data-method="post" class="btn btn-default btn-flat">Sign out</a>
                                         <?php endif; ?>
                                     </div>
                                 </li>
@@ -393,15 +394,17 @@ AppAsset::register($this);
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        Blank page
-                        <small>Control panel</small>
+                        UTEHN PHNU
+                        <small>tehnnn@gmail.com</small>
                     </h1>
-                    <ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                        <li class="active">Blank page</li>
-                    </ol>
-                </section>
 
+                    <?=
+                    \yii\widgets\Breadcrumbs::widget([
+                        'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                    ])
+                    ?>
+
+                </section>
                 <!-- Main content -->
                 <section class="content">
                     <?= $content ?>                    

@@ -67,6 +67,10 @@ class SiteController extends Controller {
     public function actionIndex() {
         return $this->render('index');
     }
+    
+    public function actionMap(){
+        return $this->render('map');
+    }
 
     public function actionLogin() {
         if (!\Yii::$app->user->isGuest) {
