@@ -24,7 +24,7 @@ AppAsset::register($this);
     <body class="skin-blue">
 
         <header class="header">
-            <a href="" class="logo">              
+            <a href="<?=Yii::$app->homeUrl;?>" class="logo">              
                 AdminLTE Yii 2.0.1
             </a>
             <!-- Header Navbar: style can be found in header.less -->
@@ -301,8 +301,8 @@ AppAsset::register($this);
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li class="active">
-                            <a href="index.html">
-                                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                            <a href="<?php echo Url::toRoute('person/index'); ?>">
+                                <i class="fa fa-dashboard"></i> <span>Person</span>
                             </a>
                         </li>
                         <li>
