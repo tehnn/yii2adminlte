@@ -1,5 +1,5 @@
 <?php
-
+//utehn phnu
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
@@ -12,10 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="person-index">
 
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]);    ?>
-
-
-
+    <?php //echo $this->render('_search', ['model' => $searchModel]);    ?>
 
     <?php
     $columns = [
