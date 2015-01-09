@@ -26,15 +26,7 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'view' => [
-            'theme' => [
-                'pathMap' => [
-                    '@app/views' => [
-                        '@webroot/themes/layout',
-                    ]
-                ],
-            ],
-        ] // here demo is your folder name
+        
     ],
     'params' => $params,
     'modules' => [
