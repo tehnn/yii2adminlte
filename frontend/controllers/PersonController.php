@@ -40,6 +40,30 @@ class PersonController extends Controller {
         ]);
     }
 
+    public function actionIndex3() {
+
+        $query = new \yii\db\Query();
+        $rawdata = $query->select('*')->from('person')->where(['id' => [1, 2, 3]])
+                        ->createCommand()->queryAll();
+
+
+        $provider = new \yii\data\ArrayDataProvider([
+            //'key'=>'id',
+            'allModels' => $rawdata,
+            'sort' => [
+                'attributes' => array_keys($rawdata[0])
+            ],
+            'pagination' => [
+                'pageSize' => 10,
+            ],
+        ]);
+
+
+        return $this->render('index3', [
+                    'dataProvider' => $provider,
+        ]);
+    }
+
     // ที่ controller
     public function actionIndex2() {
 
@@ -49,7 +73,9 @@ class PersonController extends Controller {
 
         $rawdata = \Yii::$app->db->createCommand($sql)->queryAll();
 
+
         $provider = new \yii\data\ArrayDataProvider([
+            //'key'=>'id',
             'allModels' => $rawdata,
             'sort' => [
                 'attributes' => array_keys($rawdata[0])

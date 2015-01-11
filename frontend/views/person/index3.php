@@ -2,7 +2,7 @@
 
 use yii\widgets\Pjax;
 ?>
-<div class="alert alert-success"><?= $sql ?></div>
+
 
 <?php Pjax::begin(); ?>
 <?php
