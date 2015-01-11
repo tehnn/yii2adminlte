@@ -8,7 +8,7 @@ use frontend\models\PersonSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use yii\db\Query;
 
 /**
  * PersonController implements the CRUD actions for Person model.
@@ -26,8 +26,6 @@ class PersonController extends Controller {
         ];
     }
 
-   
-
     /**
      * Lists all Person models.
      * @return mixed
@@ -39,6 +37,31 @@ class PersonController extends Controller {
         return $this->render('index', [
                     'searchModel' => $searchModel,
                     'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    // ที่ controller
+    public function actionIndex2() {
+
+        $a = 'ก';
+
+        $sql = "SELECT * FROM person where id>20 and fname like '$a%'";
+
+        $rawdata = \Yii::$app->db->createCommand($sql)->queryAll();
+
+        $provider = new \yii\data\ArrayDataProvider([
+            'allModels' => $rawdata,
+            'sort' => [
+                'attributes' => array_keys($rawdata[0])
+            ],
+            'pagination' => [
+                'pageSize' => 10,
+            ],
+        ]);
+
+        return $this->render('index2', [
+                    'dataProvider' => $provider,
+                    'sql' => $sql
         ]);
     }
 
