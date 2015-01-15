@@ -16,6 +16,7 @@ $coord = new LatLng(['lat' => 16, 'lng' => 100]);
 $map = new Map([
     'center' => $coord,
     'zoom' => 8,
+    
 ]);
  
 // lets use the directions renderer
@@ -65,7 +66,7 @@ $marker = new Marker([
 // Provide a shared InfoWindow to the marker
 $marker->attachInfoWindow(
     new InfoWindow([
-        'content' => '<p>This is my super cool content</p>'
+        'content' => '<p>ทดสอบ</p>'
     ])
 );
  
