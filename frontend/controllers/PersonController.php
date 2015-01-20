@@ -8,7 +8,6 @@ use frontend\models\PersonSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\db\Query;
 
 /**
  * PersonController implements the CRUD actions for Person model.
@@ -16,7 +15,34 @@ use yii\db\Query;
 class PersonController extends Controller {
 
     public function behaviors() {
+
+        $role = @Yii::$app->user->identity->role;
+        $status = @Yii::$app->user->identity->status;
+        echo $status;
+        echo $role;
+
+        $arr = array();
+        
+        if ($role == 10) {
+            $arr = ['index', 'create', 'delete', 'view'];
+        }
+
+        if ($role == 1) {
+            $arr = ['index', 'update', 'view'];
+        }
+
         return [
+            'access' => [
+                'class' => \yii\filters\AccessControl::className(),
+                'only' => ['index', 'view', 'create', 'update', 'delete'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'actions' => $arr,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -30,6 +56,11 @@ class PersonController extends Controller {
      * Lists all Person models.
      * @return mixed
      */
+    public function actionTest() {
+
+        echo "test";
+    }
+
     public function actionIndex() {
         $searchModel = new PersonSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
