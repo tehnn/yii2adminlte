@@ -16,7 +16,7 @@ class PersonController extends Controller {
 
     public function behaviors() {
 
-        $role = null;
+      
         
         $role = @\Yii::$app->user->identity->role;
         //$status = @Yii::$app->user->identity->status;
@@ -25,11 +25,11 @@ class PersonController extends Controller {
 
 
         $arr = [];
-        if ($role == 10) {
+        if ($role == 1) {
             $arr = ['index', 'view', 'create', 'update', 'delete',];
         }
 
-        if ($role == 1) {
+        if ($role == 10) {
             $arr = ['index', 'view'];
         }
 
