@@ -22,7 +22,8 @@
         "2amigos/yii2-table-export-widget": "*",
         "kartik-v/yii2-grid": "*",
         "kartik-v/yii2-mpdf": "*",
-        "arturoliveira/yii2-excelview": "*"
+        "arturoliveira/yii2-excelview": "*",
+        "webvimark/module-user-management": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

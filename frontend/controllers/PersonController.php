@@ -16,19 +16,21 @@ class PersonController extends Controller {
 
     public function behaviors() {
 
-        $role = @Yii::$app->user->identity->role;
-        $status = @Yii::$app->user->identity->status;
-        echo $status;
-        echo $role;
-
-        $arr = array();
+        $role = null;
         
+        $role = @\Yii::$app->user->identity->role;
+        //$status = @Yii::$app->user->identity->status;
+        ////echo $role;
+        //echo $status;
+
+
+        $arr = [];
         if ($role == 10) {
-            $arr = ['index', 'create', 'delete', 'view'];
+            $arr = ['index', 'view', 'create', 'update', 'delete',];
         }
 
         if ($role == 1) {
-            $arr = ['index', 'update', 'view'];
+            $arr = ['index', 'view'];
         }
 
         return [
@@ -36,6 +38,11 @@ class PersonController extends Controller {
                 'class' => \yii\filters\AccessControl::className(),
                 'only' => ['index', 'view', 'create', 'update', 'delete'],
                 'rules' => [
+                    [
+                        'allow' => true,
+                        'actions' => ['index', 'index3'],
+                        'roles' => ['?'],
+                    ],
                     [
                         'allow' => true,
                         'actions' => $arr,
