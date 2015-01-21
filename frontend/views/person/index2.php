@@ -6,8 +6,21 @@ use yii\widgets\Pjax;
 
 <?php Pjax::begin(); ?>
 <?php
-echo \yii\grid\GridView::widget([
+echo \kartik\grid\GridView::widget([
     'dataProvider' => $dataProvider,
+    'pjax' => true,
+    'pjaxSettings' => [
+        //'neverTimeout' => true,
+        'options' => [
+            'enablePushState' => false,
+        ],
+    ],
+    'responsive' => true,
+    'hover' => true,
+    'panel' => [
+        'before' => '',
+    //'after'=>''
+    ],
 ]);
 ?>
 <?php Pjax::end(); ?>

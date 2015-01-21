@@ -15,24 +15,18 @@ use yii\filters\VerbFilter;
 class PersonController extends Controller {
 
     public function behaviors() {
-
-      
-        
         $role = @\Yii::$app->user->identity->role;
-        //$status = @Yii::$app->user->identity->status;
-        ////echo $role;
-        //echo $status;
-
-
-        $arr = [];
+        $arr = ['index', 'view'];
         if ($role == 1) {
-            $arr = ['index', 'view', 'create', 'update', 'delete',];
+            //$arr = ['index', 'view', 'create', 'update', 'delete',];
+            array_push($arr, 'create');
+            array_push($arr, 'update');
+            array_push($arr, 'delete');
         }
-
         if ($role == 10) {
-            $arr = ['index', 'view'];
+            //$arr = ['index', 'view'];
+            array_push($arr, 'update');
         }
-
         return [
             'access' => [
                 'class' => \yii\filters\AccessControl::className(),
@@ -40,7 +34,7 @@ class PersonController extends Controller {
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'index3'],
+                        'actions' => $arr,
                         'roles' => ['?'],
                     ],
                     [
