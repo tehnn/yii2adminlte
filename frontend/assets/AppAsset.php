@@ -35,6 +35,7 @@ class AppAsset extends AssetBundle {
 class AppAsset extends AssetBundle {
 
     public $sourcePath = '@theme/';
+    public $baseUrl ='@web';
     public $css = array(
         //'admin-lte/css/bootstrap.min.css',
         'admin-lte/css/AdminLTE.css',

@@ -8,6 +8,7 @@ use frontend\models\PersonSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use Goodby\CSV\Import\Standard\LexerConfig;
 
 /**
  * PersonController implements the CRUD actions for Person model.
@@ -30,6 +31,9 @@ class PersonController extends Controller {
         return [
             'access' => [
                 'class' => \yii\filters\AccessControl::className(),
+                'denyCallback' => function ($rule, $action) {
+                    throw new \yii\web\ForbiddenHttpException("ไม่อนุญาติ");
+                },
                 'only' => ['index', 'view', 'create', 'update', 'delete'],
                 'rules' => [
                     [
@@ -59,7 +63,16 @@ class PersonController extends Controller {
      */
     public function actionTest() {
 
-        echo "test";
+
+
+        $config = new LexerConfig();
+        $config
+                ->setDelimiter("\t") // Customize delimiter. Default value is comma(,)
+                ->setEnclosure("'")  // Customize enclosure. Default value is double quotation(")
+                ->setEscape("\\")    // Customize escape character. Default value is backslash(\)
+                ->setToCharset('UTF-8') // Customize target encoding. Default value is null, no converting.
+                ->setFromCharset('SJIS-win') // Customize CSV file encoding. Default value is null.
+        ;
     }
 
     public function actionIndex() {
