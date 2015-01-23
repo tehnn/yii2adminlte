@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-/*
+
 class AppAsset extends AssetBundle {
 
     public $basePath = '@webroot';
@@ -29,28 +29,6 @@ class AppAsset extends AssetBundle {
         'yii\bootstrap\BootstrapAsset',
     ];
 
-}*/
-
-
-class AppAsset extends AssetBundle {
-
-    public $sourcePath = '@theme/';
-    public $baseUrl ='@web';
-    public $css = array(
-        //'admin-lte/css/bootstrap.min.css',
-        'admin-lte/css/AdminLTE.css',
-        'admin-lte/css/font-awesome.min.css',
-        'admin-lte/css/ionicons.min.css'
-    );
-    public $js = array(
-        'admin-lte/js/AdminLTE/app.js',
-    );
-    public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
-    ];
-
 }
 
-?>
+
