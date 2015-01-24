@@ -261,9 +261,9 @@ AdminAsset::register($this);
                                     </div>
                                     <div class="pull-right">
                                         <?php if (Yii::$app->user->isGuest): ?>
-                                            <a href="<?= Url::to(['site/login']); ?>" data-method="post" class="btn btn-default btn-flat">Sign In</a>
+                                            <a href="<?= Url::to(['user/security/login']); ?>" data-method="post" class="btn btn-default btn-flat">Sign In</a>
                                         <?php else: ?>
-                                            <a href="<?= Url::to(['site/logout']); ?>" data-method="post" class="btn btn-default btn-flat">Sign out</a>
+                                            <a href="<?= Url::to(['user/security/logout']); ?>" data-method="post" class="btn btn-default btn-flat">Sign out</a>
                                         <?php endif; ?>
                                     </div>
                                 </li>

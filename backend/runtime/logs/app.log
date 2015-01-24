@@ -1,0 +1,807 @@
+2015-01-24 03:44:08 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user', Array)
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-01-24 03:44:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'PHPSESSID' => 'a9qe3tk6ibl74pacq7geifbmo2'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; PHPSESSID=a9qe3tk6ibl74pacq7geifbmo2; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49599'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067447.915
+    'REQUEST_TIME' => 1422067447
+]
+2015-01-24 03:44:17 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/signup' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/signup', Array)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-01-24 03:44:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'PHPSESSID' => 'a9qe3tk6ibl74pacq7geifbmo2'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; PHPSESSID=a9qe3tk6ibl74pacq7geifbmo2; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49603'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/signup'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=site/signup'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067457.757
+    'REQUEST_TIME' => 1422067457
+]
+2015-01-24 03:46:15 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/registrayion/regis".' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/registrayi...', Array)
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-01-24 03:46:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/registrayion/regis'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'PHPSESSID' => 'a9qe3tk6ibl74pacq7geifbmo2'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; PHPSESSID=a9qe3tk6ibl74pacq7geifbmo2; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49608'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/registrayion/regis'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=user/registrayion/regis'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067575.924
+    'REQUEST_TIME' => 1422067575
+]
+2015-01-24 03:46:22 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/registrayion/register".' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/registrayi...', Array)
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-01-24 03:46:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/registrayion/register'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'PHPSESSID' => 'a9qe3tk6ibl74pacq7geifbmo2'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; PHPSESSID=a9qe3tk6ibl74pacq7geifbmo2; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49613'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/registrayion/register'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=user/registrayion/register'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067582.187
+    'REQUEST_TIME' => 1422067582
+]
+2015-01-24 03:48:14 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php:821
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(821): PDOStatement->execute()
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#6 E:\xampp\htdocs\yii2admilte\common\models\User.php(68): yii\db\BaseActiveRecord::findOne(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(614): common\models\User::findIdentity(1)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#14 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/admin', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+The SQL being executed was: SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(836): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#6 E:\xampp\htdocs\yii2admilte\common\models\User.php(68): yii\db\BaseActiveRecord::findOne(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(614): common\models\User::findIdentity(1)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#14 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/admin', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'status' in 'where clause'
+)
+
+2015-01-24 03:48:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/admin'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+    '_identity' => 'c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s:46:\"[1,\"8waH2iiJy2pO36vXnwW65ZeeCrAgFXsr\",1209600]\";'
+    'PHPSESSID' => 's8bc87g8d8p3eprao1ik29fap5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/backend/web/index.php?r=user%2Fsecurity%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B; _identity=c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s%3A46%3A%22%5B1%2C%228waH2iiJy2pO36vXnwW65ZeeCrAgFXsr%22%2C1209600%5D%22%3B; PHPSESSID=s8bc87g8d8p3eprao1ik29fap5'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49643'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/admin'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067694.562
+    'REQUEST_TIME' => 1422067694
+]
+2015-01-24 03:51:50 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php:821
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(821): PDOStatement->execute()
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#6 E:\xampp\htdocs\yii2admilte\common\models\User.php(68): yii\db\BaseActiveRecord::findOne(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(614): common\models\User::findIdentity(1)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#14 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/admin', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+The SQL being executed was: SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(836): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#6 E:\xampp\htdocs\yii2admilte\common\models\User.php(68): yii\db\BaseActiveRecord::findOne(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(614): common\models\User::findIdentity(1)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#14 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/admin', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'status' in 'where clause'
+)
+
+2015-01-24 03:51:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/admin'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+    '_identity' => 'c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s:46:\"[1,\"8waH2iiJy2pO36vXnwW65ZeeCrAgFXsr\",1209600]\";'
+    'PHPSESSID' => 's8bc87g8d8p3eprao1ik29fap5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2admilte/backend/web/index.php?r=user%2Fsecurity%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B; _identity=c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s%3A46%3A%22%5B1%2C%228waH2iiJy2pO36vXnwW65ZeeCrAgFXsr%22%2C1209600%5D%22%3B; PHPSESSID=s8bc87g8d8p3eprao1ik29fap5'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49655'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/admin'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067910.839
+    'REQUEST_TIME' => 1422067910
+]
+2015-01-24 03:51:55 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php:821
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(821): PDOStatement->execute()
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#6 E:\xampp\htdocs\yii2admilte\common\models\User.php(68): yii\db\BaseActiveRecord::findOne(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(614): common\models\User::findIdentity(1)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#14 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+The SQL being executed was: SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(836): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#5 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#6 E:\xampp\htdocs\yii2admilte\common\models\User.php(68): yii\db\BaseActiveRecord::findOne(Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(614): common\models\User::findIdentity(1)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#14 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#16 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#20 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'status' in 'where clause'
+)
+
+2015-01-24 03:51:55 [::1][-][-][info][application] $_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    '_csrf' => 'ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes:32:\"SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d\";'
+    '_identity' => 'c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s:46:\"[1,\"8waH2iiJy2pO36vXnwW65ZeeCrAgFXsr\",1209600]\";'
+    'PHPSESSID' => 's8bc87g8d8p3eprao1ik29fap5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; _csrf=ad13b12b09c2857774077dac91466845f10ec141cc61a5af236584b38ec02cdes%3A32%3A%22SwJc0mBtpWq8Rmai0omfTvMZ6qKb6b3d%22%3B; _identity=c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s%3A46%3A%22%5B1%2C%228waH2iiJy2pO36vXnwW65ZeeCrAgFXsr%22%2C1209600%5D%22%3B; PHPSESSID=s8bc87g8d8p3eprao1ik29fap5'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49657'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422067915.505
+    'REQUEST_TIME' => 1422067915
+]
+2015-01-24 03:56:53 [::1][1][-][error][yii\base\NotSupportedException] exception 'yii\base\NotSupportedException' with message 'Message format 'date' is not supported. You have to install PHP intl extension to use this feature.' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\i18n\MessageFormatter.php:342
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\i18n\MessageFormatter.php(260): yii\i18n\MessageFormatter->parseToken(Array, Array, 'en-US')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\i18n\MessageFormatter.php(93): yii\i18n\MessageFormatter->fallbackFormat('{0, date, MMMM ...', Array, 'en-US')
+#2 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\i18n\I18N.php(114): yii\i18n\MessageFormatter->format('{0, date, MMMM ...', Array, 'en-US')
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\i18n\I18N.php(91): yii\i18n\I18N->format('{0, date, MMMM ...', Array, 'en-US')
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\BaseYii.php(498): yii\i18n\I18N->translate('user', '{0, date, MMMM ...', Array, 'en-US')
+#5 E:\xampp\htdocs\yii2admilte\vendor\dektrium\yii2-user\views\admin\index.php(52): yii\BaseYii::t('user', '{0, date, MMMM ...', Array)
+#6 [internal function]: yii\base\View->{closure}(Object(dektrium\user\models\User), 1, 0, Object(yii\grid\DataColumn))
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(dektrium\user\models\User), 1, 0, Object(yii\grid\DataColumn))
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(dektrium\user\models\User), 1, 0)
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(dektrium\user\models\User), 1, 0)
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(dektrium\user\models\User), 1, 0)
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(dektrium\user\models\User), 1, 0)
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#13 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#14 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#15 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n{pager}')
+#18 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#19 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#20 E:\xampp\htdocs\yii2admilte\vendor\dektrium\yii2-user\views\admin\index.php(95): yii\base\Widget::widget(Array)
+#21 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(325): require('E:\\xampp\\htdocs...')
+#22 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#23 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(dektrium\user\controllers\AdminController))
+#24 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(dektrium\user\controllers\AdminController))
+#25 E:\xampp\htdocs\yii2admilte\vendor\dektrium\yii2-user\controllers\AdminController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: dektrium\user\controllers\AdminController->actionIndex()
+#27 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#28 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#29 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#30 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/admin', Array)
+#31 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 E:\xampp\htdocs\yii2admilte\backend\web\index.php(18): yii\base\Application->run()
+#33 {main}
+2015-01-24 03:56:52 [::1][1][-][info][application] $_GET = [
+    'r' => 'user/admin'
+]
+
+$_COOKIE = [
+    'HstCfa2599725' => '1419569862110'
+    'HstCmu2599725' => '1419569862110'
+    'HstCla2599725' => '1419581128559'
+    'HstPn2599725' => '36'
+    'HstPt2599725' => '46'
+    'HstCnv2599725' => '2'
+    'HstCns2599725' => '3'
+    '87608c9ad2f66666a8bf4f823f68dd55' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    'e250461fb2de6bbcb1653e1d8d32741a' => '2239c953987196d5fac7ac1801b60d61aa521d14a:4:{i:0;s:5:\"admin\";i:1;s:5:\"admin\";i:2;i:2592000;i:3;a:5:{s:7:\"prename\";s:9:\"นาย\";s:5:\"fname\";s:5:\"Admin\";s:4:\"type\";s:1:\"1\";s:4:\"role\";s:5:\"admin\";s:7:\"company\";s:3:\"999\";}}'
+    '_csrf' => 'd85dfada7df8b312c5e157f639478e7249c25bcfeaa574d744d70a2062b6f901s:32:\"P1mmelUfuk1wWo8kftcC-3CbYm37CQUr\";'
+    'PHPSESSID' => 's8bc87g8d8p3eprao1ik29fap5'
+    '_identity' => 'c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s:46:\"[1,\"8waH2iiJy2pO36vXnwW65ZeeCrAgFXsr\",1209600]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ar;q=0.6,de;q=0.4,es;q=0.2,fr;q=0.2,nl;q=0.2,th;q=0.2,vi;q=0.2'
+    'HTTP_COOKIE' => 'HstCfa2599725=1419569862110; HstCmu2599725=1419569862110; HstCla2599725=1419581128559; HstPn2599725=36; HstPt2599725=46; HstCnv2599725=2; HstCns2599725=3; 87608c9ad2f66666a8bf4f823f68dd55=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; e250461fb2de6bbcb1653e1d8d32741a=2239c953987196d5fac7ac1801b60d61aa521d14a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%22admin%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A7%3A%22prename%22%3Bs%3A9%3A%22%E0%B8%99%E0%B8%B2%E0%B8%A2%22%3Bs%3A5%3A%22fname%22%3Bs%3A5%3A%22Admin%22%3Bs%3A4%3A%22type%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22role%22%3Bs%3A5%3A%22admin%22%3Bs%3A7%3A%22company%22%3Bs%3A3%3A%22999%22%3B%7D%7D; _csrf=d85dfada7df8b312c5e157f639478e7249c25bcfeaa574d744d70a2062b6f901s%3A32%3A%22P1mmelUfuk1wWo8kftcC-3CbYm37CQUr%22%3B; PHPSESSID=s8bc87g8d8p3eprao1ik29fap5; _identity=c9c94603b084de0c6d0b8d84e6825b272f6ea530d95a021d4f2b90b0386a51a4s%3A46%3A%22%5B1%2C%228waH2iiJy2pO36vXnwW65ZeeCrAgFXsr%22%2C1209600%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii2admilte/backend/web/index.php'
+    'REMOTE_PORT' => '49776'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/admin'
+    'REQUEST_URI' => '/yii2admilte/backend/web/index.php?r=user/admin'
+    'SCRIPT_NAME' => '/yii2admilte/backend/web/index.php'
+    'PHP_SELF' => '/yii2admilte/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422068212.807
+    'REQUEST_TIME' => 1422068212
+]

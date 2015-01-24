@@ -1,0 +1,116 @@
+2015-01-24 03:50:56 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Migration.php(248): yii\db\Command->execute()
+#2 E:\xampp\htdocs\yii2admilte\vendor\dektrium\yii2-user\migrations\m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(489): m140209_132017_init->up()
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(126): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('up', Array)
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('up', Array)
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/up', Array)
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/up', Array)
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\xampp\htdocs\yii2admilte\yii(31): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(25) NOT NULL,
+	`email` varchar(255) NOT NULL,
+	`password_hash` varchar(60) NOT NULL,
+	`auth_key` varchar(32) NOT NULL,
+	`confirmation_token` varchar(32),
+	`confirmation_sent_at` int(11),
+	`confirmed_at` int(11),
+	`unconfirmed_email` varchar(255),
+	`recovery_token` varchar(32),
+	`recovery_sent_at` int(11),
+	`blocked_at` int(11),
+	`registered_from` int(11),
+	`logged_in_from` int(11),
+	`logged_in_at` int(11),
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE=InnoDB' in E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\db\Migration.php(248): yii\db\Command->execute()
+#2 E:\xampp\htdocs\yii2admilte\vendor\dektrium\yii2-user\migrations\m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(489): m140209_132017_init->up()
+#4 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(126): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('up', Array)
+#9 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('up', Array)
+#10 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate/up', Array)
+#11 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate/up', Array)
+#12 E:\xampp\htdocs\yii2admilte\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\xampp\htdocs\yii2admilte\yii(31): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2015-01-24 03:50:52 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\UTEHN\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UTEHN-NB'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\UTEHN'
+    'LOCALAPPDATA' => 'C:\\Users\\UTEHN\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UTEHN-NB'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;E:\\xampp\\php\\;E:\\composer;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;.;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\UTEHN\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\UTEHN\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UTEHN-NB'
+    'USERNAME' => 'UTEHN'
+    'USERPROFILE' => 'C:\\Users\\UTEHN'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\xampp\\htdocs\\yii2admilte\\'
+    'PHP_SELF' => 'E:\\xampp\\htdocs\\yii2admilte\\yii'
+    'SCRIPT_NAME' => 'E:\\xampp\\htdocs\\yii2admilte\\yii'
+    'SCRIPT_FILENAME' => 'E:\\xampp\\htdocs\\yii2admilte\\yii'
+    'PATH_TRANSLATED' => 'E:\\xampp\\htdocs\\yii2admilte\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1422067852.0807
+    'REQUEST_TIME' => 1422067852
+    'argv' => [
+        0 => 'E:\\xampp\\htdocs\\yii2admilte\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dektrium/yii2-user/migrations'
+    ]
+    'argc' => 3
+]

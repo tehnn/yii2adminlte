@@ -16,8 +16,10 @@ use Goodby\CSV\Import\Standard\LexerConfig;
 class PersonController extends Controller {
 
     public function behaviors() {
-        $role = @\Yii::$app->user->identity->role;
+        //$role = @\Yii::$app->user->identity->role;
+        //echo \Yii::$app->user->identity->username;
         $arr = ['index', 'view'];
+        /*
         if ($role == 1) {
             //$arr = ['index', 'view', 'create', 'update', 'delete',];
             array_push($arr, 'create');
@@ -27,7 +29,7 @@ class PersonController extends Controller {
         if ($role == 10) {
             //$arr = ['index', 'view'];
             array_push($arr, 'update');
-        }
+        }*/
         return [
             'access' => [
                 'class' => \yii\filters\AccessControl::className(),
