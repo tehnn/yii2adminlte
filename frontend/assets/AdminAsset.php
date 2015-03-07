@@ -6,16 +6,16 @@ use yii\web\AssetBundle;
 
 class AdminAsset extends AssetBundle {
 
-    public $sourcePath = '@theme/';
+    public $sourcePath = '@themes/admin-lte';
     public $baseUrl = '@web';
     public $css = array(
         //'admin-lte/css/bootstrap.min.css',
-        'admin-lte/css/AdminLTE.css',
-        'admin-lte/css/font-awesome.min.css',
-        'admin-lte/css/ionicons.min.css'
+        'css/AdminLTE.css',
+        'css/font-awesome.min.css',
+        'css/ionicons.min.css'
     );
     public $js = array(
-        'admin-lte/js/AdminLTE/app.js',
+        'js/AdminLTE/app.js',
     );
     public $depends = [
         'yii\web\YiiAsset',

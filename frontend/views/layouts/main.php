@@ -2,13 +2,16 @@
 
 use yii\helpers\Html;
 use frontend\assets\AdminAsset;
+use frontend\assets\MaterialAsset;
 use yii\helpers\Url;
+
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
 //AppAsset::register($this);
 AdminAsset::register($this);
+//MaterialAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
